@@ -41,17 +41,16 @@ p {
 
 .content {
   text-align: center;
-  width: 40%;
-  max-width: 800px;
+  max-width: 65ch;
   margin: 20px auto;
 }
 
 .brands {
+  max-width: 55ch;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
-  width: 60%;
   margin: 0 auto;
 }
 
@@ -102,19 +101,13 @@ p {
   }
 }
 
-@media (max-width: 1024px) {
-  .content {
-    width: 80%;
-  }
-}
-
 @media (max-width: 767px) {
   .fullscreen-gif {
     height: 50vh;
   }
 
-  .brands {
-    width: 100%;
+  .content {
+    padding: 0 20px;
   }
 
   .arrow {
